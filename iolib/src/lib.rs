@@ -53,4 +53,3 @@ macro_rules! read_value {
         $next().parse::<$t>().expect("Parse error")
     };
 }
-
